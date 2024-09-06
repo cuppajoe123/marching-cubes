@@ -1,0 +1,7 @@
+If:
+    PathMatch: .*\.cpp
+
+CompileFlags:
+    Add: [-Llib, -lglfw3, -lGL, -lX11, -lpthread, -lXrandr, -lXi, -ldl, -Ilearnopengl]
+
+---
